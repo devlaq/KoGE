@@ -1,6 +1,0 @@
-# ninja log v5
-3	1246	6890077323519727	CMakeFiles/KoRPG.dir/src/main.cpp.obj	6a75be9ebfe0751a
-8	838	6890077319448813	CMakeFiles/KoRPG.dir/src/shader.cpp.obj	16fb77f79e172527
-15	674	6890077317798417	CMakeFiles/KoRPG.dir/src/stb_image.cpp.obj	78e4337d46f491e9
-11	1782	6890077328890932	CMakeFiles/KoRPG.dir/src/glad.c.obj	ba23cde26b3e0d8c
-1	144	6890081591834608	build.ninja	4171b27c6db1786c

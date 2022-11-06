@@ -1,3 +1,0 @@
-C:/Users/devla/CLionProjects/KoRPG/cmake-build-debug/CMakeFiles/KoRPG.dir
-C:/Users/devla/CLionProjects/KoRPG/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/devla/CLionProjects/KoRPG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
