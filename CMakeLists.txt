@@ -15,4 +15,13 @@ file(COPY resources DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/Debug)
 
 message(STATUS ${CMAKE_CURRENT_BINARY_DIR})
 
-target_link_libraries(KoRPG glfw3 freetyped spdlogd fmtd)
+include(FetchContent)
+
+FetchContent_Declare(
+        freetype
+        GIT_REPOSITORY https://github.com/freetype/freetype.git
+        GIT_TAG VER-2-12-1
+)
+
+FetchContent_MakeAvailable(freetype)
+target_link_libraries(KoRPG libglfw3.a freetype libharfbuzz.a libharfbuzz-subset.a libz.so libbz2.a libgzip.a libpng.a libbrotlidec.so libwoff2common.so libwoff2dec.so libspdlog.a libfmt.a X11)
